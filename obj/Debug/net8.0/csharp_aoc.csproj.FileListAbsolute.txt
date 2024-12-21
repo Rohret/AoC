@@ -12,3 +12,4 @@ C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\refint
 C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.pdb
 C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.genruntimeconfig.cache
 C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\ref\csharp_aoc.dll
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.sourcelink.json
