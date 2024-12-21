@@ -1,0 +1,14 @@
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\bin\Debug\net8.0\csharp_aoc.exe
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\bin\Debug\net8.0\csharp_aoc.deps.json
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\bin\Debug\net8.0\csharp_aoc.runtimeconfig.json
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\bin\Debug\net8.0\csharp_aoc.dll
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\bin\Debug\net8.0\csharp_aoc.pdb
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.AssemblyInfoInputs.cache
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.AssemblyInfo.cs
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.csproj.CoreCompileInputs.cache
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.dll
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\refint\csharp_aoc.dll
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.pdb
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\csharp_aoc.genruntimeconfig.cache
+C:\Users\AdamRöhr\Documents\Egna_Projekt\AoC\csharp_aoc\obj\Debug\net8.0\ref\csharp_aoc.dll
