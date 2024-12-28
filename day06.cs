@@ -12,25 +12,77 @@ static class Day06
 
     var result = 0;
 
-    AddPath(allLines);
+    AddPathUp(allLines);
 
     Console.WriteLine($"Result: {result}");
   }
 
-  private static void AddPath(List<List<char>> allLines)
+  private static void AddPathUp(List<List<char>> allLines)
   {
     var rowIndex = allLines.FindIndex(line => line.Contains('^'));
     if (rowIndex != -1)
     {
       if (rowIndex <= 0)
       {
-        // Its over 
+        return;
       }
+
       var index = allLines[rowIndex]?.IndexOf('^') ?? -1;
+      if (allLines[rowIndex - 1][index] == '#')
+      {
+        allLines[rowIndex][index] = '>';
+        AddPathRight(allLines);
+        return;
+      }
       allLines[rowIndex][index] = 'X';
       allLines[rowIndex - 1][index] = '^';
-      Console.WriteLine($"rowIndex: {rowIndex}, index: {index}");
     }
   }
 
+  private static void AddPathRight(List<List<char>> allLines)
+  {
+    var rowIndex = allLines.FindIndex(line => line.Contains('>'));
+    if (rowIndex != -1)
+    {
+      var index = allLines[rowIndex]?.IndexOf('>') ?? -1;
+
+      if (index <= allLines[rowIndex].Count - 1)
+      {
+        return;
+      }
+
+      if (allLines[rowIndex - 1][index] == '#')
+      {
+        allLines[rowIndex][index] = 'v';
+        AddPathDown(allLines);
+        return;
+      }
+
+      allLines[rowIndex][index] = 'X';
+      allLines[rowIndex][index + 1] = '>';
+    }
+  }
+  private static void AddPathDown(List<List<char>> allLines)
+  {
+    var rowIndex = allLines.FindIndex(line => line.Contains('v'));
+    if (rowIndex != -1)
+    {
+      var index = allLines[rowIndex]?.IndexOf('v') ?? -1;
+
+      if (rowIndex <= allLines.Count - 1)
+      {
+        return;
+      }
+
+      if (allLines[rowIndex - 1][index] == '#')
+      {
+        allLines[rowIndex][index] = 'v';
+        AddPathLeft(allLines);
+        return;
+      }
+
+      allLines[rowIndex][index] = 'X';
+      allLines[rowIndex][index + 1] = '>';
+    }
+  }
 }
