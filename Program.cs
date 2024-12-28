@@ -10,6 +10,7 @@
     /*Day03b.Run();*/
     /*Day04.Run();*/
     /*Day04b.Run();*/
-    Day05.Run();
+    /*Day05.Run();*/
+    Day05b.Run();
   }
 }
