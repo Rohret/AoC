@@ -12,6 +12,15 @@
     /*Day04b.Run();*/
     /*Day05.Run();*/
     /*Day05b.Run();*/
-    Day06.Run();
+    /*Day06.Run();*/
+    var thread = new Thread(() =>
+    {
+      Day06b.Run();
+    }, 16 * 1024 * 1024); // 16 MB stack
+
+    thread.Start();
+    thread.Join();
+
+
   }
 }
