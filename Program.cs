@@ -21,7 +21,8 @@
     /*thread.Start();*/
     /*thread.Join();*/
     /*Day07.Run();*/
-    Day07b.Run();
+    /*Day07b.Run();*/
+    Day08.Run();
 
   }
 }
